@@ -1,0 +1,174 @@
+
+body {
+    background-color: rgb(252, 252, 233);
+   }
+   .columnLeft {
+    height: 100%; 
+    width: 260px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    padding-left: 10px;
+   }
+   .columnLeft a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    display: block;
+   }
+   .columnLeft hr {
+    width: 98%;    
+    background-color: #505050;
+    border: none;
+    height: 1px;
+    }
+   .columnLeft a:hover {
+    color: #f1f1f1;
+  }
+  a img {
+    max-height: 90px;
+    width: 230px;
+    margin: 0 auto;
+    border: 0;
+    vertical-align: middle;
+
+  }
+   #logo {
+    color: bisque;
+    font-size: 30px;
+   }
+   .columnMain {
+    margin-left: 280px;
+    padding: 0px 10px;
+   }
+  .columnMain h4 {
+    display: inline;
+    padding: 32px;
+  }
+  .header {
+    text-align: center;
+  }
+  .header a {
+    width:100px;
+    height:100px;
+    text-decoration: none;
+    color: #111;
+  }
+  .header a:hover {
+    background-color: bisque;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+  .header a:visited {
+    text-decoration: none;
+  }
+  .icones {
+    text-align: center;
+    padding: 8px;
+  }
+
+  .icones a {
+    text-decoration: none;
+    padding: 7px 8px;
+    color: black;
+  }
+  .icones a:hover {
+    background-color: bisque;
+  }
+  
+  .icones img {
+    width: 40px;
+  }
+
+  .academica {
+    height: 40%; 
+    width: 350px;
+    position: fixed; 
+    z-index: 0; 
+    top: 90; 
+    left: 20%;
+    border-top:solid 5px black;
+    border-left:solid 1px black;
+    border-right: solid 1px black;
+    border-bottom:solid 1px black;
+    border-radius: 10px;
+    background-color: white; 
+    overflow-x: hidden; 
+    padding-top: 25px;
+    padding-left: 10px;
+  }
+
+  .faltas {
+    height: 30%; 
+    width: 540px;
+    position: fixed; 
+    z-index: 0; 
+    top: 90; 
+    left: 45%;
+    border-top:solid 5px black;
+    border-left:solid 1px black;
+    border-right: solid 1px black;
+    border-bottom:solid 1px black;
+    border-radius: 10px;
+    background-color: white; 
+    overflow-x: hidden; 
+    padding-top: 25px;
+    padding-left: 10px;
+  }
+
+  #alert {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #detalhes {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+  }
+
+  #detalhes a {
+    text-decoration: none;
+    color: rgb(67, 125, 172);
+  }
+
+  #detalhes a:hover {
+    color: #111;
+  }
+
+  .direita {
+    position: fixed;   
+    left: 85%;
+  }
+
+  .direita a {
+    display:inline-block;
+  }
+
+  .direita img {
+    width: 230px;
+  }
+
+  .dados {
+    height: 30%; 
+    width: 350px;
+    position: fixed; 
+    z-index: 0; 
+    top: 55%; 
+    left: 20%;
+    border-top:solid 5px black;
+    border-left:solid 1px black;
+    border-right: solid 1px black;
+    border-bottom:solid 1px black;
+    border-radius: 10px;
+    background-color: white; 
+    overflow-x: hidden; 
+    padding-top: 25px;
+    padding-left: 10px;
+  }

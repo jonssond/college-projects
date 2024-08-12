@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Aluno</title>
+    <link rel="stylesheet" type="text/css" href="./css/style2.css" media="screen" />
+</head>
+<body>
+    <div class="columnLeft">
+        <a href="index.html"><h2 id="logo">UNIVERSIDADE ALIGHIERI</h2></a>
+        <hr>
+        <a href="blackboard.html"><img src="imagens/blackboard.jpg" alt="" id="blackboard"></a>
+        <hr>
+        <a href="">Home</a>
+        <a href="">Minha Conta</a>
+        <a href="">Meus Cursos</a>
+        <a href="">Vida Acadêmica</a>
+        <hr>
+        <a href="index.html">Sair</a>
+    </div>
+    <div class="columnMain">
+        <div class="header">
+        <a href=""><h4>Avisos</h4></a>
+        <a href=""><h4>Superior de Tecnologia em Análise e Desenvolvimento de Sistemas</h4></a>
+        <a href=""><h4>Olá, Aluno!</h4></a>
+        <hr>
+        </div>
+        <div class="icones">
+            <a href=""><img src="https://wub.edu.bd/assets/images/step-education.png" alt="icone vida academica"> Vida Academica</a> 
+            <a href=""><img src="https://cdn4.iconfinder.com/data/icons/little-business-glyph/64/Business-04-512.png" alt="logo-financeiro">Financeiro</img></a>
+            <a href=""><img src="https://ssl.datanext.com.br/sistema-datasys/mod-ecom/1049/assets/img/icon-boleto.png" alt="logo pagar mensalidade">Pagar Mensalidade</img></a>
+            <a href=""><img src="https://th.bing.com/th/id/R.452775481954190a0f3b3035fd2a8a98?rik=HnirXe%2b9ZZ7bnA&pid=ImgRaw&r=0" alt="icone-rematricula">Rematricula</img></a>
+            <a href=""><img src="https://th.bing.com/th/id/R.21a3c2026cf5ffcf265ed1b88f967ff8?rik=Fghw2s%2frTJcf5w&pid=ImgRaw&r=0" alt="icone-atividades-complementares">Atividades Complementares</img></a>
+            <hr>
+        </div>
+        <div class="academica">
+            <h3>Vida Acadêmica</h3>
+            <hr>
+            <a href=""><h4>Documentos Pendentes</h4></a>
+            <hr>
+            <a href=""><h4>Diploma Digital</h4></a>
+            <hr>
+            <a href=""><h4>Biblioteca</h4></a>
+            <hr>
+            <a href=""><h4>Horários de Aula e Professor</h4></a>
+            <hr>
+        </div>
+        <div class="faltas">
+            <h3>Minhas Faltas</h3>
+            <hr>
+            Selecione o período letivo:
+            <select name="semestre" id="select" required="required">
+                <option value="ND"></option>
+                <option value="um">2023 - 1º SEMESTRE - CST EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</option>
+                <option value="dois">2023 - 2º SEMESTRE - CST EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</option>
+                <option value="tres">2023 - 3º SEMESTRE - CST EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</option>
+                <option value="quatro">2023 - 4º SEMESTRE - CST EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</option>
+            </select>
+            <p id="alert">Atenção ao seu limite de faltas!</p>
+            <p id="detalhes"><a href="">Ver detalhes</a></p>
+        </div>
+        <div class="direita">
+            <img src="imagens/direitola.png" alt="" id="imagem">
+        </div>
+        <div class="dados">
+            <h3>Meus dados</h3>
+            <hr>
+            <p>Nome: <span id="nomeUsuario"></span></p>
+            <p>CPF: <span id="cpfUsuario"></span></p>
+            <p>RGM: <span id="rgmUsuario"></span></p>
+            <p>E-mail: <span id="emailUsuario"></span></p>
+        </div>
+    </div>
+    <script src="./js/dados.js"></script>
+</body>
+</html>
